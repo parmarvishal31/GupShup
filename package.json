@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js"
+    "serve": "nodemon --watch . server.js",
+    "start": "node server.js",
   },
   "author": "gupshup",
   "license": "ISC",
